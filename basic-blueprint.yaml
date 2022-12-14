@@ -27,6 +27,7 @@ modules:
         value: $blueprint.provision_rg
       - name: name
         value: $blueprint.resource_group_name
+        sensitive: true
     outputs:
       - name: resource_group_name
       - name: resource_group_id
